@@ -3,7 +3,7 @@ Code, documetation and issue tracking for NANOOS NCEI archiving
 
 - Refer to the excellent NCEI IOOS archiving cookbook documentation: [Archiving your data at NCEI - A Guide for IOOS Regional Association Data Managers](https://sites.google.com/a/noaa.gov/ncei-ioos-archive/cookbook/data-integrity)
 - [NCEI NetCDF Templates v2.0](https://www.nodc.noaa.gov/data/formats/netcdf/v2.0/)
-- [Attribute Conventions Dataset Discovery (ACDD)](http://wiki.esipfed.org/index.php/Attribute_Convention_for_Data_Discovery). This ESIP-hosted site is now the official ACDD documentation.
+- [Attribute Conventions Dataset Discovery (ACDD)](http://wiki.esipfed.org/index.php/Attribute_Convention_for_Data_Discovery). This ESIP-hosted site is now the official ACDD documentation. The [ERDDAP documentation](http://coastwatch.pfeg.noaa.gov/erddap/download/setupDatasetsXml.html#globalAttributes) also has useful information in a useful format.
 
 
 ## Other NANOOS or NANOOS-related data archived on NCEI
