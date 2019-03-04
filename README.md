@@ -9,6 +9,12 @@ Code, documentation and issue tracking for NANOOS NCEI archiving
 
 *The recommendations provided by NCEI staff on the issues and documents in this repository are primarily for the NANOOS archival process at NCEI. While some of the information might be useful and applicable to other data sets, these are not blanket statements for all of NCEI's archival procedures.*
 
+## NANOOS OHSU CMOP NCEI Archiving
+
+- Monthly netcdf files for archiving (pulled by NCEI): http://data.nanoos.org/ncei/ohsucmop/
+- [NCEI Submission Agreement (SA).](http://www.nanoos.org/documents/certification/DMP/NANOOS-NCEI-Submission_Agreement_2017-03-13T19-51-12.pdf) The SA has extensive technical details about the archiving procedures. Some relevant fragments from the SA, with small additions: *"Submission Information Packages (SIP) will be organized into 'bags'. Each 'bag' will contain data, metadata, and manifest files which fully document the files intended to be submitted. The 'bags' will be folders on http://data.nanoos.org/ncei/ohsucmop/ which correspond to the name of the platform. E.g. abpoa/, riverrad/, saturn01/, etc. Within the station folder (or 'bag') there will be four standard files with the following names: bag-into.txt, bagit.txt, manifest-sha256.txt, and tagmanifest-sha256.txt as well as a data/ directory which will contain folders for all of the netCDF files to be submitted. Each of the folders within the data/ directory represent an instrument/instrument deployment.... NCEI will organize the Archival Information Packages (AIP) by station. Each time a new station arrives, a new AIP will be generated."*
+
+
 ## Other NANOOS or NANOOS-related data archived on NCEI
 
 In addition to the formal data archiving process we are setting up, which will follow the IOOS-NCEI "gold standard" and will be done in coordination with NANOOS DMAC, other data packages may have been archived already at NCEI with a keyword linkage or acknowledgment to NANOOS. [This "NANOOS" search](http://data.nodc.noaa.gov/geoportal/rest/find/document?searchText=%22NANOOS%22&start=1&max=250&contentOption=intersecting&f=searchPage) to the [NCEI Geoportal](http://data.nodc.noaa.gov/geoportal/) returns all current NCEI records matching a NANOOS string.
