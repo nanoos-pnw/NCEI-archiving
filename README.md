@@ -13,6 +13,9 @@ Code, documentation and issue tracking for NANOOS NCEI archiving
 
 - Monthly netcdf files for archiving (pulled by NCEI): http://data.nanoos.org/ncei/ohsucmop/
 - [NCEI Submission Agreement (SA).](http://www.nanoos.org/documents/certification/DMP/NANOOS-NCEI-Submission_Agreement_2017-03-13T19-51-12.pdf) The SA has extensive technical details about the archiving procedures. Some relevant fragments from the SA, with small additions: *"Submission Information Packages (SIP) will be organized into 'bags'. Each 'bag' will contain data, metadata, and manifest files which fully document the files intended to be submitted. The 'bags' will be folders on http://data.nanoos.org/ncei/ohsucmop/ which correspond to the name of the platform. E.g. abpoa/, riverrad/, saturn01/, etc. Within the station folder (or 'bag') there will be four standard files with the following names: bag-into.txt, bagit.txt, manifest-sha256.txt, and tagmanifest-sha256.txt as well as a data/ directory which will contain folders for all of the netCDF files to be submitted. Each of the folders within the data/ directory represent an instrument/instrument deployment.... NCEI will organize the Archival Information Packages (AIP) by station. Each time a new station arrives, a new AIP will be generated."*
+- Sample archived OHSU CMOP packages on NCEI servers
+  - Search catalog: https://www.nodc.noaa.gov/archivesearch/catalog/search/search.page?searchText=%252522CMOP%252522&start=1&max=250&contentOption=intersecting&f=searchPage
+  - SATURN 03 [Accession package](https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.nodc:0162617) and [THREDDS catalog endpoint](https://data.nodc.noaa.gov/thredds/catalog/ioos/nanoos/ohsucmop/saturn03/catalog.html)
 
 
 ## Other NANOOS or NANOOS-related data archived on NCEI
