@@ -2,7 +2,7 @@
     "Bayocean": {
         "name": "Bayocean Spit",
         "state": "Oregon", 
-        "provider": "DOGAMI / NANOOS",
+        "provider": "DOGAMI-NANOOS",
         "projection": "epsg:32126",
         "transects": ["Bay1", "Bay2", "Bay3", "Bay4", "Bay5", "Bay6", "Bay7"]
     },
