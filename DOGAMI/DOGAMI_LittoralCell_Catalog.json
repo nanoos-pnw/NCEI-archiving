@@ -9,14 +9,14 @@
     "Nehalem": {
         "name": "Nehalem Spit",
         "state": "Oregon", 
-        "provider": "DOGAMI / NANOOS",
+        "provider": "DOGAMI-NANOOS",
         "projection": "epsg:32126",
         "transects": ["Neh1", "Neh2", "Neh3", "Neh4", "Neh5", "Neh6", "Neh7", "Neh8"]
     },
     "Neskowin": {
         "name": "Neskowin",
         "state": "Oregon", 
-        "provider": "DOGAMI / NANOOS",
+        "provider": "DOGAMI-NANOOS",
         "projection": "epsg:32126",
         "transects": ["Nesk1", "Nesk2", "Nesk3", "Nesk4", "Nesk5", "Nesk6", "Nesk7", "Nesk8", "Nesk9", 
                       "Nesk10", "Nesk11", "Nesk12", "Nesk13", "Nesk14", "Nesk15"]
@@ -24,7 +24,7 @@
     "Rockaway": {
         "name": "Rockaway",
         "state": "Oregon", 
-        "provider": "DOGAMI / NANOOS",
+        "provider": "DOGAMI-NANOOS",
         "projection": "epsg:32126",
         "transects": ["Rck1", "Rck2", "Rck3", "Rck4", "Rck5", "Rck6", "Rck7", "Rck8", "Rck9", "Rck10"]
     }
