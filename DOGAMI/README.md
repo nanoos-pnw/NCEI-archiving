@@ -3,7 +3,7 @@
 **TEMPORARY NOTES:**
 - See sample files at http://data.nanoos.org/ncei/dogami/
 - Littoral Cells in initial archiving batch: Bayocean, Nehalem, Neskowin, Rockaway
-- [Littoral Cell inventory sample on GitHub](https://github.com/crisien/geojson/blob/main/Rockaway_littoralcell_inventory.geojson); GeoJSON files on GitHub are rendered on an interactive, Google-Maps-type map
+- [Littoral Cell inventory sample on GitHub](https://github.com/nanoos-pnw/NCEI-archiving/blob/master/DOGAMI/Bayocean_littoralcell_inventory.geojson); GeoJSON files on GitHub are rendered on an interactive, Google-Maps-type map
 
 
 ## Transect data files
