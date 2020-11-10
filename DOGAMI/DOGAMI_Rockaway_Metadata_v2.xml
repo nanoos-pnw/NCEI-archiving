@@ -1,0 +1,348 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Oregon Department of Geology and Mineral Industries</origin>
+        <pubdate>2008</pubdate>
+        <title>Oregon Beach and Shoreline Mapping and Analysis Program - Rockaway Littoral Cell Beach Profile Change Data</title>
+        <edition>v_2019_03</edition>
+        <geoform>profile</geoform>
+        <serinfo>
+          <sername>Oregon Department of Geology and Mineral Industries Open-File Report</sername>
+          <issue>O-08-15</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Portland, Oregon, USA</pubplace>
+          <publish>Oregon Department of Geology and Mineral Industries </publish>
+        </pubinfo>
+        <onlink>http://nvs.nanoos.org/BeachMapping</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Oregon Department of Geology and Mineral Industries</origin>
+            <pubdate>2008</pubdate>
+            <title>Oregon Beach and Shoreline Mapping and Analysis Program: 2007-2008 Beach Monitoring Report</title>
+            <edition>v_2019_03</edition>
+            <geoform>profile</geoform>
+            <serinfo>
+              <sername>Oregon Department of Geology and Mineral Industries Open-File Report</sername>
+              <issue>O-08-15</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Portland, Oregon, USA</pubplace>
+              <publish>Oregon Department of Geology and Mineral Industries</publish>
+            </pubinfo>
+            <onlink>http://nvs.nanoos.org/BeachMapping</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This report describes and documents the Oregon Beach and Shoreline Mapping Analysis Program (OBSMAP) maintained by the Oregon Department of Geology and Mineral Industries (DOGAMI), with funding from the Northwest Association of Networked Ocean Observing System. The objective of this monitoring program is to document the response of Oregon’s beaches to both short-term climate variability (e.g., El Niños, extreme storms) and longer-term effects associated with the changing climate of the earth (e.g., increasing wave heights, changes to storm tracks, and sea level rise), that will influence the stability or instability of Oregon’s beaches over the next century. Understanding the wide range of responses characteristic of the Oregon coast is critical for effectively managing the public beach both today and into the future. Beach monitoring undertaken as part of the OBSMAP effort is based on repeated high-accuracy surveys of selected beach profiles using a Trimble R7/R8 Real-Time Kinematic Differential Global Positioning System (RTK-DGPS) mounted on either a backpack or on an ATV vehicle. The OBSMAP monitoring network currently consists of 211 beach monitoring sites, which include: 6 sites along the Clatsop Plains (Seaside to the mouth of the Columbia River). Monitored seasonally; 25 sites along the Rockaway littoral cell (Cape Meares to Neahkahnie Mountain). Monitored seasonally; 24 sites in the Netarts cell (Cape Lookout to Oceanside). Monitoring dependent on time and funding; 15 sites in the Neskowin cell (Cascade Head to Cape Kiwanda). Monitored seasonally; 33 sites along Gleneden Beach/Siletz Spit (Fishing Rock to Siletz Bay). Monitoring dependent on time and funding; 15 sites in the Beverly Beach cell (Yaquina Head to Otter Rock). Monitoring dependent on time and funding; 58 sites in the Newport littoral cell (Yachats to Yaquina Head). Monitoring dependent on time and funding; 35 sites in the Gold Beach littoral cell (Cape Sebastian to Sisters Rock). Monitoring dependent on time and funding.</abstract>
+      <purpose>The objective of this monitoring program is to document the response of Oregon’s beaches to both short-term climate variability (e.g., El Niños, extreme storms) and longer-term effects associated with the changing climate of the earth (e.g., increasing wave heights,
+changes to storm tracks, and sea level rise), that will influence the stability or instability of Oregon’s beaches over the next century.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20190423</caldate>
+        </sngdate>
+        <rngdates>
+          <begdate>19970901</begdate>
+          <enddate>Ongoing</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>v_2019_03</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Ongoing. Transects in Tillamook County and on the Clatsop Plains are re-measured on a seasonal basis (i.e. late summer (Aug/Sep), fall (Dec/Jan), and winter (Feb/Mar). Other sites are measured on annual basis.</update>
+    </status>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificinformation</themekey>
+        <themekey>oceans</themekey>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
+        <themekey>elevation</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>Oregon Geospatial Enterprise Office Metadata Keyword Thesaurus</themekt>
+        <themekey>Coastal zone</themekey>
+        <themekey>Topography</themekey>
+        <themekey>Climate change</themekey>
+        <themekey>Benchmark</themekey>
+        <themekey>Control Points</themekey>
+        <themekey>Global Positioning System (GPS) </themekey>
+        <themekey>Field Survey</themekey>
+        <themekey>Geomorphology</themekey>
+        <themekey>Coastal hazard</themekey>
+        <themekey>Coastal erosion</themekey>
+        <themekey>Accretion</themekey>
+        <themekey>Marine, shoreline</themekey>
+        <themekey>Beach</themekey>
+        <themekey>Dune</themekey>
+        <themekey>Wave erosion</themekey>
+        <themekey>Eolian</themekey>
+        <themekey>Sea cliff</themekey>
+        <themekey>Sea level change</themekey>
+        <themekey>Storms</themekey>
+      </theme>
+      <theme>
+        <themekey>El Nino</themekey>
+      </theme>
+      <place>
+        <placekt>Oregon Geospatial Enterprise Office Metadata Keyword Thesaurus</placekt>
+        <placekey>Tillamook</placekey>
+      </place>
+      <place>
+        <placekey>Bayocean Spit/Rockaway Beach/Nehalem Spit, Netarts cell, Neskowin/Nestucca Spit</placekey>
+      </place>
+      <stratum>
+        <stratkt>Oregon Geospatial Enterprise Office Metadata Keyword Thesaurus</stratkt>
+        <stratkey>Littoral</stratkey>
+        <stratkey>Sediment</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>Oregon Geospatial Enterprise Office Metadata Keyword Thesaurus</tempkt>
+        <tempkey>Summer</tempkey>
+        <tempkey>Fall</tempkey>
+        <tempkey>Winter</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>REPORT DATA: This product is for informational purposes and may not have been prepared for or be suitable for legal, engineering, or surveying purposes. Users of this information should review or consult the primary data and information sources to ascertain the usability of the information. This publication cannot substitute for site-specific investigations by qualified practitioners. Site-specific data may give results that differ from the results shown in the publication. See the accompanying text report for more details on the limitations of the methods and data used to prepare this publication.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Oregon Department of Geology and Mineral Industries </cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>800 NE Oregon Street Suite 965</address>
+          <city>Portland</city>
+          <state>Oregon</state>
+          <postal>97232</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1 971 673 1555</cntvoice>
+        <cntfax>1 971 673 1562</cntfax>
+        <cntemail>dogami-info@oregon.gov</cntemail>
+        <cntinst>When contacting DOGAMI about this data set, please reference the data set title or other identifying information in your correspondence. DOGAMI publications can be downloaded from http://www.oregongeology.org</cntinst>
+      </cntinfo>
+      <cntinfo>
+        <cntperp>
+          <cntper>Dr. Jonathan Allan, Coastal Geomorphologist, Oregon Department of Geology and Mineral Industries, Coastal Field Office, P.O. Box 1033, Newport, OR 97365, USA. Ph: (1+541) 574-6658; Cell: (1+541) 819-9023. email: jonathan.allan@oregon.gov</cntper>
+          <cntorg>Oregon Department of Geology and Mineral Industries </cntorg>
+        </cntperp>
+        <cntpos>Coastal Geomorphologist</cntpos>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browset>jpeg image (.jpg)</browset>
+    </browse>
+    <datacred>Funding for this work is provided through a grant from the Northwest Association of Networked Ocean Observing System, via the Integrated Ocean Observing System of NOAA</datacred>
+    <secinfo>
+      <secclass>Unclassified</secclass>
+    </secinfo>
+    <crossref>
+      <citeinfo>
+        <origin>Jonathan C. Allan and Roger Hart</origin>
+        <pubdate>2008</pubdate>
+        <title>Oregon Beach and Shoreline Mapping and Analysis Program: 2007-2008 Beach Monitoring Report</title>
+        <serinfo>
+          <sername>Oregon Department of Geology and Mineral Industries Open-File Report</sername>
+          <issue>O-08-15</issue>
+        </serinfo>
+        <othercit>Allan, J.C., and Hart, R., 2007, Assessing the temporal and spatial variability of coastal change in the Neskowin littoral cell: Developing a comprehensive monitoring program for Oregon beaches Oregon Department of Geology and Mineral Industries Open-file-report O-07-01, 27 p.</othercit>
+        <onlink>http://nvs.nanoos.org/BeachMapping</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The quality of source data is good. Attributes include point number, easting, northing, horizontal distance, elevation.</attraccr>
+    </attracc>
+    <logic>QA/QC performed on post-survey measurements to identify any point anomalies</logic>
+    <complete>Data is complete for the specified periods in which measurements were undertaken.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The R7/R8 GPS system used has horizontal errors of approximately ±1 cm + 1 ppm (parts per million × the baseline length) and a vertical error of ±2 cm (Trimble Navigation Limited, 2009). Errors may be compounded by other factors such as poor satellite geometry, multipath, and poor atmospheric conditions, combining to increase the total error to several centimeters. DOGAMI uses a site calibration process in order to minimize such uncertainties. Once the local site calibration is completed, cross-shore beach profiles are surveyed with the R8 GPS rover unit mounted on a backpack; surveys are typically undertaken during low tide. The approach generally adopted involves walking from the landward edge of the primary dune, over the dune crest, down the beach face, and out into the ocean to approximately wading depth. A straight line perpendicular to the shore is achieved by navigating along a predetermined line displayed on a hand-held Trimble TSC2 computer connected to the R8 rover; RTK-DGPS corrections are provided by an R7 GPS base station located on an established benchmark. The computer shows the position of the operator relative to the survey line and indicates the deviation of the GPS operator from the line. The horizontal variability during and between subsequent surveys is generally minor, approximately 1 m (i.e., about ±0.5 m either side of the line) and, typically, results in negligible vertical uncertainties due to the wide, gently sloping beaches characteristic of much of the Oregon coast. This method can reliably detect elevation changes on the order of 4-5 cm, that is, well below normal seasonal changes in beach elevation, which typically varies by 1–2 m.</horizpar>
+        <qhorizpa>
+          <horizpav> ±1 cm + 1 ppm (parts per million × the baseline length)</horizpav>
+          <horizpae>http://trl.trimble.com/docushare/dsweb/Get/Document-666215/R8-R6-5800_v400A_UserGuide.pdf</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The R7/R8 GPS system used has horizontal errors of approximately ±1 cm + 1 ppm (parts per million × the baseline length) and a vertical error of ±2 cm (Trimble Navigation Limited, 2009). Errors may be compounded by other factors such as poor satellite geometry, multipath, and poor atmospheric conditions, combining to increase the total error to several centimeters. DOGAMI uses a site calibration process in order to minimize such uncertainties. Once the local site calibration is completed, cross-shore beach profiles are surveyed with the R8 GPS rover unit mounted on a backpack; surveys are typically undertaken during low tide. The approach generally adopted involves walking from the landward edge of the primary dune, over the dune crest, down the beach face, and out into the ocean to approximately wading depth. A straight line perpendicular to the shore is achieved by navigating along a predetermined line displayed on a hand-held Trimble TSC2 computer connected to the R8 rover; RTK-DGPS corrections are provided by an R7 GPS base station located on an established benchmark. The computer shows the position of the operator relative to the survey line and indicates the deviation of the GPS operator from the line. The horizontal variability during and between subsequent surveys is generally minor, approximately 1 m (i.e., about ±0.5 m either side of the line) and, typically, results in negligible vertical uncertainties due to the wide, gently sloping beaches characteristic of much of the Oregon coast. This method can reliably detect elevation changes on the order of 4-5 cm, that is, well below normal seasonal changes in beach elevation, which typically varies by 1–2 m.</vertaccr>
+        <qvertpa>
+          <vertaccv> ±2 cm + 1 ppm (parts per million × the baseline length)</vertaccv>
+          <vertacce>http://trl.trimble.com/docushare/dsweb/Get/Document-666215/R8-R6-5800_v400A_UserGuide.pdf</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Jonathan C. Allan and Roger Hart</origin>
+            <pubdate>2008</pubdate>
+            <title>Oregon Beach and Shoreline Mapping and Analysis Program: 2007-2008 Beach Monitoring Report</title>
+            <geoform>profile</geoform>
+            <serinfo>
+              <sername>Oregon Department of Geology and Mineral Industries Open-File Report</sername>
+              <issue>O-08-15</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Portland, Oregon, USA</pubplace>
+              <publish>Oregon Department of Geology and Mineral Industries </publish>
+            </pubinfo>
+            <othercit>Allan, J.C., and Hart, R., 2007, Assessing the temporal and spatial variability of coastal change in the Neskowin littoral cell: Developing a comprehensive monitoring program for Oregon beaches Oregon Department of Geology and Mineral Industries Open-file-report O-07-01, 27 p.</othercit>
+            <onlink>http://nvs.nanoos.org/BeachMapping</onlink>
+          </citeinfo>
+        </srccite>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>19970901</begdate>
+              <enddate>Ongoing</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>http://nvs.nanoos.org/BeachMapping</srccurr>
+        </srctime>
+      </srcinfo>
+      <procstep>
+        <procdesc>The R7/R8 GPS system used has horizontal errors of approximately ±1 cm + 1 ppm (parts per million × the baseline length) and a vertical error of ±2 cm (Trimble Navigation Limited, 2009). Errors may be compounded by other factors such as poor satellite geometry, multipath, and poor atmospheric conditions, combining to increase the total error to several centimeters. DOGAMI uses a site calibration process in order to minimize such uncertainties. Once the local site calibration is completed, cross-shore beach profiles are surveyed with the R8 GPS rover unit mounted on a backpack; surveys are typically undertaken during low tide. The approach generally adopted involves walking from the landward edge of the primary dune, over the dune crest, down the beach face, and out into the ocean to approximately wading depth. A straight line perpendicular to the shore is achieved by navigating along a predetermined line displayed on a hand-held Trimble TSC2 computer connected to the R8 rover; RTK-DGPS corrections are provided by an R7 GPS base station located on an established benchmark. The computer shows the position of the operator relative to the survey line and indicates the deviation of the GPS operator from the line. The horizontal variability during and between subsequent surveys is generally minor, approximately 1 m (i.e., about ±0.5 m either side of the line) and, typically, results in negligible vertical uncertainties due to the wide, gently sloping beaches characteristic of much of the Oregon coast. This method can reliably detect elevation changes on the order of 4-5 cm, that is, well below normal seasonal changes in beach elevation, which typically varies by 1–2 m.</procdesc>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>Oregon Department of Geology and Mineral Industries </cntorg>
+            </cntorgp>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>800 NE Oregon Street Suite 965</address>
+              <city>Portland</city>
+              <state>Oregon</state>
+              <postal>97232</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>1 971 673 1555</cntvoice>
+            <cntfax>1 971 673 1562</cntfax>
+            <cntemail>dogami-info@oregon.gov</cntemail>
+            <cntinst>When contacting DOGAMI about this data set, please reference the data set title or other identifying information in your correspondence. DOGAMI publications can be downloaded from http://www.oregongeology.org</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert_Conformal_Conic</mapprojn>
+          <mapprojp>
+            <longpc>-120.50000000</longpc>
+            <latprjc>43.66666667</latprjc>
+            <feast>2500000.00000000</feast>
+            <fnorth>0.00000000</fnorth>
+          </mapprojp>
+        </mapproj>
+      </planar>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <attr>
+        <attrlabl>point id</attrlabl>
+        <attrdef>Column 1: Unique ID</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Easting</attrlabl>
+        <attrdef>Column 2: Easting (Oregon State Plane Coordinate System, meters)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Northing</attrlabl>
+        <attrdef>Column 3: Northing (Oregon State Plane Coordinate System, meters)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Horizontal distance</attrlabl>
+        <attrdef>Column 4: Horizontal distance (meters, relative to start point)</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Elevation</attrlabl>
+        <attrdef>Column 5: Elevation (meters, NAVD88)</attrdef>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Oregon Department of Geology and Mineral Industries </cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>800 NE Oregon Street Suite 965</address>
+          <city>Portland</city>
+          <state>Oregon</state>
+          <postal>97232</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1 971 673 1555</cntvoice>
+        <cntfax>1 971 673 1562</cntfax>
+        <cntemail>dogami-info@oregon.gov</cntemail>
+        <cntinst>When contacting DOGAMI about this data set, please reference the data set title or other identifying information in your correspondence. DOGAMI publications can be downloaded from http://www.oregongeology.org</cntinst>
+      </cntinfo>
+    </distrib>
+    <distliab>Although these data have been processed successfully on a computer system at the Oregon Department of Geology and Mineral Industries, no warranty expressed or implied is made by DOGAMI regarding the utility of the data on any other system, nor shall the act of distribution constitute any such warranty.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>MAT Matlab datafile format OR EXCEL format</formname>
+        </digtinfo>
+      </digform>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>20190805</caldate>
+        </sngdate>
+        <rngdates>
+          <begdate>19970901</begdate>
+          <enddate>Ongoing</enddate>
+        </rngdates>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Oregon Department of Geology and Mineral Industries </cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>800 NE Oregon Street Suite 965</address>
+          <city>Portland</city>
+          <state>Oregon</state>
+          <postal>97232</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1 971 673 1555</cntvoice>
+        <cntfax>1 971 673 1562</cntfax>
+        <cntemail>dogami-info@oregon.gov</cntemail>
+        <cntinst>When contacting DOGAMI about this data set, please reference the data set title or other identifying information in your correspondence. DOGAMI publications can be downloaded from http://www.oregongeology.org</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>Oregon Department of Geology and Mineral Industries Metadata Standard</metstdn>
+    <metstdv>1.4</metstdv>
+    <metac>None</metac>
+    <metuc>None</metuc>
+    <metsi>
+      <metscs>None</metscs>
+      <metsc>None</metsc>
+      <metshd>None</metshd>
+    </metsi>
+  </metainfo>
+</metadata>
