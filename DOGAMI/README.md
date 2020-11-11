@@ -11,7 +11,7 @@
 
 ## Transect data files
 
-`[littoralcell]_[transect]_transect_data.csv`
+`[littoralcell]_[transect]_transect_data_prj_epsg[epsg code].csv`
 
 Bayocean_Bay1_transect_data_prj_epsg32126.csv
 
