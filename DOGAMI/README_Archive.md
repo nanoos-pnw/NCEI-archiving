@@ -74,6 +74,8 @@ start_lat | |
 end_lon | |
 end_lat | |
 
+## Littoral cell inventory geojson files
+### File naming convention
 `[littoralcell]_littoralcell_inventory.geojson`
 
 | Term | Definition |
@@ -81,3 +83,8 @@ end_lat | |
 | `[littoralcell]` | |
 
 Example file name: **Bayocean_littoralcell_inventory.geojson**
+
+### File description
+The GeoJSON files will be formatted according to the [GeoJSON specification](https://geojson.org/). The information presented in the GeoJSON file will be the same information presented in the [Littoral cell inventory files](#littoral-cell-inventory-files).
+
+
