@@ -1,20 +1,24 @@
 # DOGAMI Shoreline Profile Data
 
-NANOOS - DOGAMI Oregon Beach and Shoreline Mapping Analysis Program (OBSMAP) dataset
+## TODO
+- Add the vertical datum to the inventory and this README file
+- In Points of contact, Use role descriptions from the IOOS Metadata Profile and CMOP NCEI archive netcdf files
+- Finish the Projection information section
+- Use place holder "variables" to populate a README file template with information for a specific littoral cell:
+  - NCEI dataset generation date
+  - Name
+  - Number of transects
+  - Date of most recent survey
+  - Projection used in this dataset
+
+## NANOOS - DOGAMI Oregon Beach and Shoreline Mapping Analysis Program (OBSMAP) dataset for the Bayocean Spit Littoral Cell
 
 - [DOGAMI: Oregon Department of Geological and Mineral Industries](https://www.oregongeology.org)
 - [NANOOS: Northwest Association of Networked Ocean Observing System](http://www.nanoos.org)
 
 This dataset contains data from a set of discrete shoreline **transects** within a single **littoral cell** (region) along the Oregon coast. **Surveys** are carried out at each transect at seasonal to annual time scales. These transects show the degree of change (horizontal and vertical) taking place across the sub-aerial beach down into the inter-tidal zone; the data represent discrete stations (points) along the shore. Transect plots for this and all other littoral cells are available on the [NANOOS Visualization System (NVS) Beach and Shoreline Changes App](http://nvs.nanoos.org/BeachMapping).
 
-Easting, northing and surface elevation data are provided at each survey point. From late Summer 1997 through Summer 2002, data was generated from profiles interpolated from an airborne LIDAR survey. Surveys using Real-Time Kinematic Differential Global Positioning System (RTK-DGPS) instruments started in October 2004.
-
-**TODO:** Use place holder "variables" to populate the README file with information for the littoral cells:
-- NCEI dataset generation date
-- Name
-- Number of transects
-- Date of most recent survey
-- Projection used in this dataset
+Easting, northing and surface elevation were measured at each survey point. From late Summer 1997 through Summer 2002, data was generated from profiles interpolated from an airborne LIDAR survey. Surveys using Real-Time Kinematic Differential Global Positioning System (RTK-DGPS) instruments started in October 2004.
 
 ## Projection information
 
@@ -22,10 +26,9 @@ Easting, northing and surface elevation data are provided at each survey point. 
 - NAD83 Oregon State Plane North | South: 32126 | 32127
 - http://epsg.io/32127
 - Easting and northing values are cartesisan coordinates, with positive East and North.
+- https://en.wikipedia.org/wiki/EPSG_Geodetic_Parameter_Dataset
 
-## Points of Contact
-
-(**TODO:** Use role descriptions from the IOOS Metadata Profile and CMOP NCEI archive netcdf files)
+## Points of contact
 
 - Publisher Contact: NANOOS Data Manager, nanoos.dmac@gmail.com
 - Technical Point of Contact: Jonanthan Allan, DOGAMI, Jonathan.ALLAN@oregon.gov
@@ -42,11 +45,11 @@ In addition to this README file, this dataset contains the following files:
 
 Data from all surveys conducted on a transect are stored in a single CSV file. Each row represents one survey point, and rows are ordered by survey date (earliest to latest) and survey point (start to end points).
 
-File names follow the following convention: 
+File names follow the following convention:
 
 `Bayocean_[transect]_transect_data_prj_epsg32126.csv`
 
-where `Bayocean` is the short littoral cell name, `[transect]` is the transect code (see the littoral cell inventory), and `epsg32126` is the EPSG code for the Oregon State Plane projection used in the transect. Example: `Bayocean_Bay1_transect_data_prj_epsg32126.csv`.
+where `Bayocean` is the short littoral cell name, `[transect]` is the transect code (see the littoral cell inventory), and `32126` is the EPSG code for the NAD83 Oregon State Plane projection used in the transect. File name example: `Bayocean_Bay1_transect_data_prj_epsg32126.csv`.
 
 **Attribute descriptions:**
 
@@ -55,8 +58,8 @@ where `Bayocean` is the short littoral cell name, `[transect]` is the transect c
 | survey_number | Incremental survey number starting from the first survey (1) | 1
 | survey_date | Date survey was conducted | 1997-10-18
 | point_number | Incremental survey-specific point number starting with 1 | 1
-| easting_meters | Oregon State Plane easting (meters) coordinate in the transect projection | 2229807.882
-| northing_meters | Oregon State Plane northing (meters) coordinate in the transect projection | 209765.088
+| easting_meters | NAD83 Oregon State Plane easting (meters) coordinate in the transect projection | 2229807.882
+| northing_meters | NAD83 Oregon State Plane northing (meters) coordinate in the transect projection | 209765.088
 | distance_meters | Distance from the survey start point (meters) | 0.000
 | elevation_meters | Surface elevation (meters) | 4.082
 | measurement_approach | Elevation and coordinate measurement approach (LIDAR or GPS) | LIDAR
