@@ -1,7 +1,6 @@
 # DOGAMI Shoreline Profile Data
 
 ## TODO
-- Add the vertical datum to the inventory and this README file
 - In Points of contact, Use role descriptions from the IOOS Metadata Profile and CMOP NCEI archive netcdf files
 - Finish the Projection information section
 - Use place holder "variables" to populate a README file template with information for a specific littoral cell:
@@ -20,18 +19,19 @@ This dataset contains data from a set of discrete shoreline **transects** within
 
 Easting, northing and surface elevation were measured at each survey point. From late Summer 1997 through Summer 2002, data was generated from profiles interpolated from an airborne LIDAR survey. Surveys using Real-Time Kinematic Differential Global Positioning System (RTK-DGPS) instruments started in October 2004.
 
-## Projection information
+## Points of contact
+
+- Publisher Contact: NANOOS Data Manager, nanoos.dmac@gmail.com
+- Technical Point of Contact: Jonanthan Allan, DOGAMI, Jonathan.ALLAN@oregon.gov
+
+## Projection and datum information
 
 - projection switch based on latitude being N or S of Florence, OR (44.01 N)
 - NAD83 Oregon State Plane North | South: 32126 | 32127
 - http://epsg.io/32127
 - Easting and northing values are cartesisan coordinates, with positive East and North.
 - https://en.wikipedia.org/wiki/EPSG_Geodetic_Parameter_Dataset
-
-## Points of contact
-
-- Publisher Contact: NANOOS Data Manager, nanoos.dmac@gmail.com
-- Technical Point of Contact: Jonanthan Allan, DOGAMI, Jonathan.ALLAN@oregon.gov
+- The vertical datum is referenced to the North American Vertical Datum of 1988 (NAVD88, meters). All positional and elevation data are measured and provided in metric units (meters).
 
 ## Dataset files
 
@@ -60,7 +60,7 @@ where `Bayocean` is the short littoral cell name, `[transect]` is the transect c
 | point_number | Incremental survey-specific point number starting with 1 | 1
 | easting_meters | NAD83 Oregon State Plane easting (meters) coordinate in the transect projection | 2229807.882
 | northing_meters | NAD83 Oregon State Plane northing (meters) coordinate in the transect projection | 209765.088
-| distance_meters | Distance from the survey start point (meters) | 0.000
+| distance_meters | Horizontal distance in meters from the survey start point (0) | 0.000
 | elevation_meters | Surface elevation (meters) | 4.082
 | measurement_approach | Elevation and coordinate measurement approach (LIDAR or GPS) | LIDAR
 
