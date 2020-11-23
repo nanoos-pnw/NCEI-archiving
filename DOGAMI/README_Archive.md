@@ -1,6 +1,7 @@
 # DOGAMI Shoreline Profile Data
 
 ## TODO
+
 - In Points of contact, Use role descriptions from the IOOS Metadata Profile and CMOP NCEI archive netcdf files
 - Finish the Projection information section
 - Use place holder "variables" to populate a README file template with information for a specific littoral cell:
@@ -10,7 +11,7 @@
   - Date of most recent survey
   - Projection used in this dataset
 
-## NANOOS - DOGAMI Oregon Beach and Shoreline Mapping Analysis Program (OBSMAP) dataset for the Bayocean Spit Littoral Cell
+## NANOOS - DOGAMI Oregon Beach and Shoreline Mapping Analysis Program (OBSMAP) dataset for the Rockaway Littoral Cell
 
 - [DOGAMI: Oregon Department of Geological and Mineral Industries](https://www.oregongeology.org)
 - [NANOOS: Northwest Association of Networked Ocean Observing System](http://www.nanoos.org)
@@ -27,8 +28,8 @@ Easting, northing and surface elevation were measured at each survey point. From
 ## Projection and datum information
 
 - projection switch based on latitude being N or S of Florence, OR (44.01 N)
-- NAD83 Oregon State Plane North | South: 32126 | 32127
-- http://epsg.io/32127
+- NAD83 Oregon State Plane North (EPSG:32126) or South (EPSG:32127)
+- http://epsg.io/32126, http://epsg.io/32127
 - Easting and northing values are cartesisan coordinates, with positive East and North.
 - https://en.wikipedia.org/wiki/EPSG_Geodetic_Parameter_Dataset
 - The vertical datum is referenced to the North American Vertical Datum of 1988 (NAVD88, meters). All positional and elevation data are measured and provided in metric units (meters).
@@ -47,46 +48,46 @@ Data from all surveys conducted on a transect are stored in a single CSV file. E
 
 File names follow the following convention:
 
-`Bayocean_[transect]_transect_data_prj_epsg32126.csv`
+`Rockaway_[transect]_transect_data_prj_epsg32126.csv`
 
-where `Bayocean` is the short littoral cell name, `[transect]` is the transect code (see the littoral cell inventory), and `32126` is the EPSG code for the NAD83 Oregon State Plane projection used in the transect. File name example: `Bayocean_Bay1_transect_data_prj_epsg32126.csv`.
+where `Rockaway` is the short littoral cell name, `[transect]` is the transect code (see the littoral cell inventory), and `32126` is the EPSG code for the NAD83 Oregon State Plane projection used in the transect. File name example: `Rockaway_Rck1_transect_data_prj_epsg32126.csv`.
 
 **Attribute descriptions:**
 
 | Field | Description | Example
 --------|-------------|--------
 | survey_number | Incremental survey number starting from the first survey (1) | 1
-| survey_date | Date survey was conducted | 1997-10-18
+| survey_date | Date survey was conducted | 1998-04-15
 | point_number | Incremental survey-specific point number starting with 1 | 1
-| easting_meters | NAD83 Oregon State Plane easting (meters) coordinate in the transect projection | 2229807.882
-| northing_meters | NAD83 Oregon State Plane northing (meters) coordinate in the transect projection | 209765.088
+| easting_meters | NAD83 Oregon State Plane easting (meters) coordinate in the transect projection | 2230430.769
+| northing_meters | NAD83 Oregon State Plane northing (meters) coordinate in the transect projection | 217674.658
 | distance_meters | Horizontal distance in meters from the survey start point (0) | 0.000
-| elevation_meters | Surface elevation (meters) | 4.082
+| elevation_meters | Surface elevation (meters) | 6.763
 | measurement_approach | Elevation and coordinate measurement approach (LIDAR or GPS) | LIDAR
 
 ### 2. Littoral cell inventory files
 
-Summary information for each transect is compiled as a littoral cell inventory available in two formats: a tabular CSV file (**Bayocean_littoralcell_inventory.csv**) and a [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) file (**Bayocean_littoralcell_inventory.geojson**) depicting transect lines by connecting the start and end points (in latitude and longitude coordinates), which can be visualized and browsed using Geographical Information System (GIS) software. The two files contain the same information.
+Summary information for each transect is compiled as a littoral cell inventory available in two formats: a tabular CSV file (**Rockaway_littoralcell_inventory.csv**) and a [GeoJSON](https://en.wikipedia.org/wiki/GeoJSON) file (**Rockaway_littoralcell_inventory.geojson**) depicting transect lines by connecting the start and end points (in latitude and longitude coordinates), which can be visualized and browsed using Geographical Information System (GIS) software. The two files contain the same information.
 
 **Attribute descriptions:**
 
 | Attribute | Description | Example
 ------------|-------------|--------
-transect | Transect code used in file names | Bay1
-littoralcell | Short littoral cell name used in file names | Bayocean
-littoralcell_fullname | Complete littoral cell name | Bayocean Spit
+transect | Transect code used in file names | Rck1
+littoralcell | Short littoral cell name used in file names | Rockaway
+littoralcell_fullname | Complete littoral cell name | Rockaway
 state | State where the transect is found | Oregon
 provider | Dataset provider | DOGAMI-NANOOS
 projection | State Plane projection used in the transect data easting and northing coordinates | epsg:32126
-survey_count | Number of surveys carried out at this transect | 53
-date_first | Date of first transect survey | 1997-10-18
-date_last | Date of last transect survey | 2018-12-10
-longitude | Longitude of transect median point | -123.9601
-latitude | Latitude of transect median point | 45.5025
-start_lon | Longitude of transect start (first point) | -123.9585
-start_lat | Latitude of transect start (first point) | 45.5023
-end_lon | Longitude of transect start (end point) | -123.9629
-end_lat | Latitude of transect start (end point) | 45.5027
+survey_count | Number of surveys carried out at this transect | 52
+date_first | Date of first transect survey | 1998-04-15
+date_last | Date of last transect survey | 2018-12-07
+longitude | Longitude of transect median point | -123.9566
+latitude | Latitude of transect median point | 45.574
+start_lon | Longitude of transect start (first point) | -123.9549
+start_lat | Latitude of transect start (first point) | 45.5736
+end_lon | Longitude of transect start (end point) | -123.9593
+end_lat | Latitude of transect start (end point) | 45.5746
 
 Latitude and longitude WGS 84 (EPSG:4326) coordinates are in decimal degrees. The following values are identical for all transects in this littoral cell dataset: littoralcell, littoralcell_fullname, state, provider and projection.
 
