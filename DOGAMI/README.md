@@ -63,6 +63,7 @@ ROCKAWAY
 
 ### Package sizes
 These are approximate sizes of the entire SIP for four littoral cells. The AIP's will be slightly smaller (KB's) because the ancillary BagIt files will not be included.
+
 | Package | SIP Size
 ----------|---------
 | Bayocean | 5.2M 
@@ -72,7 +73,8 @@ These are approximate sizes of the entire SIP for four littoral cells. The AIP's
 
 ### Metadata mapping
 This section documents how the NCEI metadata record will be populated. If the contents are a path, then that information will be extracted from the FGDC xml file. Otherwise, the information will be extracted from the data file(s) or used verbatim as listed.
-| XML element | NCEI element |
+
+| Metadata source | NCEI element |
 --------------|---------------
 | `metadata/idinfo/citation/citeinfo/title` | title
 | `metadata/idinfo/descript/abstract` | abstract
