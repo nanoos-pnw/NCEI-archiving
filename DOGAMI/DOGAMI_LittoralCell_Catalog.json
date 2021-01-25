@@ -18,8 +18,14 @@
         "state": "Oregon", 
         "provider": "DOGAMI-NANOOS",
         "projection": "epsg:32126",
-        "transects": ["Nesk1", "Nesk2", "Nesk3", "Nesk4", "Nesk5", "Nesk6", "Nesk7", "Nesk8", "Nesk9", 
-                      "Nesk10", "Nesk11", "Nesk12", "Nesk13", "Nesk14", "Nesk15"]
+        "transects": ["Nesk1", "Nesk2", "Nesk3", "Nesk4", "Nesk5", "Nesk6", "Nesk7", "Nesk8"]
+    },
+    "Nestucca": {
+        "name": "Nestucca Spit",
+        "state": "Oregon", 
+        "provider": "DOGAMI-NANOOS",
+        "projection": "epsg:32126",
+        "transects": ["Nest1", "Nest2", "Nest3", "Nest4", "Nest5", "Nest6", "Nest7"]
     },
     "Rockaway": {
         "name": "Rockaway",
