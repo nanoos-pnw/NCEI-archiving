@@ -32,7 +32,7 @@ The Rockaway littoral cell contains 10 transects spanning the period 1997-10-18 
 
 Data from all surveys conducted on a transect are stored in a single CSV file. Each row represents one survey point, and rows are ordered by survey date (earliest to latest) and survey point (start to end points, from land to the shore).
 
-File names follow the following convention:
+The convention used for file names is illustrated by this example:
 
 `Rockaway_Rck1_transect_data_prj_epsg32126.csv`
 
