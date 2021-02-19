@@ -25,7 +25,7 @@
         "state": "Oregon", 
         "provider": "DOGAMI-NANOOS",
         "projection": "epsg:32126",
-        "transects": ["Nest1", "Nest2", "Nest3", "Nest4", "Nest5", "Nest6", "Nest7"]
+        "transects": ["Nest9", "Nest10", "Nest11", "Nest12", "Nest13", "Nest14", "Nest15"]
     },
     "Rockaway": {
         "name": "Rockaway",
