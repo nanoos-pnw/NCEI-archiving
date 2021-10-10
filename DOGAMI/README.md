@@ -7,26 +7,25 @@
 - Sample NANOOS (OHSU-CMOP/CRITFC) dataset archived at NCEI: https://data.nodc.noaa.gov/cgi-bin/iso?id=gov.noaa.nodc:0161524
 
 # Archive SOP
-* Each Archival Information Package (AIP) will consist of a single littoral cell. Currently there are **how many?** littoral cells.
-  * See [below](#package-sizes) for an approximation of the size for each SIP.
-* Each directory at http://data.nanoos.org/ncei/dogami/ is a littoral cell Submission Information Package (SIP) and will follow the BagIt convention.
-* The packages will be updated at a frequency **weekly?monthly?yearly?**.
-* NCEI will check for new packages every **month?year?**
-* The BagIt convention will be used to validate the transfer to NCEI.
-* For new littoral cell submissions (ones that NCEI hasn't made an AIP for yet)
-  * The package will be tranferred to NCEI.
-  * **Do something with the information in the bag-info.txt file?**
-  * Once the package has been verified, the supplementary BagIt files will be discarded as they are artifacts from the transfer.
-  * All of the files in the `data/` will be used to create a new AIP. The directory `data/` will not be preserved, only the data files contained within.
-  * Extract the metadata from the data and metadata files to populate the AIP metadata record. See the [metadata mapping table](#metadata-mapping).
-* Updates to already archived packages:
-  * NANOOS will update the *entire* littoral cell package on their server.
-  * NCEI will check the **checksums/file creation date/start date-end date range/something else??** against the existing AIP to verify the package should be updated.
-  * NCEI will perform a *major revision* replacing the existing AIP with the new data on the NANOOS server.
-  * The AIP metadata record will be updated to reflect the replacement data.
-* The data will be served according to Tier 1 stewardship (basic access), with the hopes that NCEI can make the geojson inventory files accessible using advanced access services.
-  
-* **The FGDC metadata file will be transformed to ISO19115-2 at NCEI?**
+- Each Archival Information Package (AIP) will consist of a single littoral cell. Currently there are **how many?** littoral cells.
+  - See [below](#package-sizes) for an approximation of the size for each SIP.
+- Each directory at http://data.nanoos.org/ncei/dogami/ is a littoral cell Submission Information Package (SIP) and will follow the BagIt convention.
+- The packages will be updated at a frequency **weekly?monthly?yearly?**.
+- NCEI will check for new packages every **month?year?**
+- The BagIt convention will be used to validate the transfer to NCEI.
+- For new littoral cell submissions (ones that NCEI hasn't made an AIP for yet)
+  - The package will be tranferred to NCEI.
+  - **Do something with the information in the bag-info.txt file?**
+  - Once the package has been verified, the supplementary BagIt files will be discarded as they are artifacts from the transfer.
+  - All of the files in the `data/` will be used to create a new AIP. The directory `data/` will not be preserved, only the data files contained within.
+  - Extract the metadata from the data and metadata files to populate the AIP metadata record. See the [metadata mapping table](#metadata-mapping).
+- Updates to already archived packages:
+  - NANOOS will update the *entire* littoral cell package on their server.
+  - NCEI will check the **checksums/file creation date/start date-end date range/something else??** against the existing AIP to verify the package should be updated.
+  - NCEI will perform a *major revision* replacing the existing AIP with the new data on the NANOOS server.
+  - The AIP metadata record will be updated to reflect the replacement data.
+- The data will be served according to Tier 1 stewardship (basic access), with the hopes that NCEI can make the geojson inventory files accessible using advanced access services.
+- **The FGDC metadata file will be transformed to ISO19115-2 at NCEI?**
 
 ## NCEI checks on the package
 1. Package structure follows the identified [BagIt structure below](#submission-information-package-structure).
