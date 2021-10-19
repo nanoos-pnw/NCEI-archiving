@@ -10,8 +10,8 @@
 - Each Archival Information Package (AIP) will consist of a single littoral cell. Currently there are **how many?** littoral cells.
   - See [below](#package-sizes) for an approximation of the size for each SIP.
 - Each directory at http://data.nanoos.org/ncei/dogami/ is a littoral cell Submission Information Package (SIP) and will follow the BagIt convention.
-- The packages will be updated at a frequency **weekly?monthly?yearly?**.
-- NCEI will check for new packages every **month?year?**
+- The packages will be updated at a **seasonal** frequency.
+- NCEI will check for new packages every **month**
 - The BagIt convention will be used to validate the transfer to NCEI.
 - For new littoral cell submissions (ones that NCEI hasn't made an AIP for yet)
   - The package will be tranferred to NCEI.
@@ -84,11 +84,11 @@ This section documents how the NCEI metadata record will be populated. If the co
 | extract the latitude/longitude from the inventory file `latitude` and `longitude` columns and calculate the min/max | lat/lon min/max
 | extract `survey_date` column from all the data files and compute the min/max | start date/end date
 | `metadata/idinfo/keywords/place` | sea names
-|  | observation types
-|  | instrument types
-|  | data types
-|  | contributing projects
-|  | platforms
+| _can be static_ | observation types
+| _can be static_ | instrument types
+| _can be static_ | data types
+| _can be static_ | contributing projects
+| _can be static_ | platforms
 | sum of the number of data lines in each data file in the AIP. | number of observations
 | Extract out each `themekey` term within `metadata/idinfo/keywords/theme/` and information from `metadata/idinfo/keywords/stratum/` | supplementary information
  
