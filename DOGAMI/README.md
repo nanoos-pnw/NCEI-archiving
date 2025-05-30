@@ -10,6 +10,10 @@
 - Each Archival Information Package (AIP) will consist of a single littoral cell. Currently there are **how many?** littoral cells.
   - See [below](#package-sizes) for an approximation of the size for each SIP.
 - Each directory at http://data.nanoos.org/ncei/dogami/ is a littoral cell Submission Information Package (SIP) and will follow the BagIt convention.
+  - To download all the data, one can use this bash one-liner
+    ```shell
+    wget -r -np -nH --cut-dirs=2 -R "index.html*" https://data.nanoos.org/ncei/dogami/
+    ```
 - The packages will be updated at a **seasonal** frequency.
 - NCEI will check for new packages every **month**
 - The BagIt convention will be used to validate the transfer to NCEI.
